@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jarro.vega2017finalproject.fragment.Instruction1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="In the game Mole, a mole pops up at random positions on a playing field,and the player scores points by hitting the mole before it jumps away."
+        android:textAlignment="center"
+        android:textAllCaps="true"/>
+
+</FrameLayout>
