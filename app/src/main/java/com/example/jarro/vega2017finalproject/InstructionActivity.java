@@ -1,5 +1,6 @@
 package com.example.jarro.vega2017finalproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.app.Fragment;
@@ -35,7 +36,11 @@ public class InstructionActivity extends AppCompatActivity {
         //viewPager.setCurrentItem(1);
         ButterKnife.bind(this);
     }
-
+    @OnClick(R.id.activity_instruction_bt)
+    public void cont(){
+        Intent intent = new Intent(this,MoleActivity.class);
+        startActivity(intent);
+    }
 
     public InstructionActivity(){
         super();

@@ -22,7 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".InstructionActivity"></activity>
+        <activity android:name=".InstructionActivity" />
+        <activity android:name=".MoleActivity" />
+        <activity android:name=".ListViewHighScoreActivity"></activity>
     </application>
 
 </manifest>

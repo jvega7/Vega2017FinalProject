@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
                 //correct password
-                Toast toast = Toast.makeText(getApplicationContext(),"Sumbit",Toast.LENGTH_LONG);
+                Toast toast = Toast.makeText(getApplicationContext(),"Submit",Toast.LENGTH_LONG);
                 toast.show();
             //Move to next activity Intructions
             Intent intent = new Intent(this, InstructionActivity.class);
